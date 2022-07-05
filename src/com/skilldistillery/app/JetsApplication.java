@@ -72,6 +72,7 @@ public class JetsApplication {
 				airfield.longestRange();
 				break;
 			case 5:
+				System.out.println("Below are cargo");
 				airfield.cargo();
 				break;
 			case 6:
