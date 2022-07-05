@@ -11,3 +11,4 @@ Jets project is for creating the assembly and maintain accountability of the Jet
 
 I have been learning how to insert the file and arrayList. ArrayList is the way to make resizable array by just inserting more value to array. It is more convinience rather than using array for reading a file to print out. It was pretty hard project for just working couple days, but it makes me more being friendly to Java# Jets
 # Jets
+# Jets
