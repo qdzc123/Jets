@@ -60,7 +60,7 @@ public class AirField {
 				longestRange = i;
 			}
 			
-			else if(i.getRange() > i.getRange()) {
+			else if(i.getRange() >4 longestRange.getRange()) {
 				longestRange = i;
 			}
 		}
@@ -88,7 +88,7 @@ public class AirField {
 	public Jet removeJet(int n) {
 		// TODO Auto-generated method stub
 		System.out.println("Choose which line of jet would you like to remove");
-		listFleet();
+		//listFleet();
 		Jet jetRemoved;
 		jetRemoved = jets.remove(n);
 		return jetRemoved;

@@ -16,15 +16,13 @@ public class CargoPlane extends Jet implements CargoCarrier {
 	@Override
 	public String toString() {
 		return "CargoPlane [getType()=" + getType() + ", getModel()=" + getModel() + ", getSpeed()=" + getSpeed()
-				+ ", getRange()=" + getRange() + ", getPrice()=" + getPrice() + ", getSpeedInMach()=" + getSpeedInMach()
-				+ ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
-				+ "]";
+				+ ", getRange()=" + getRange() + ", getPrice()=" + getPrice() + "]";
 	}
 
 	@Override
 	public void loadCargo() {
 		// TODO Auto-generated method stub
-		System.out.println(getModel() + " ");
+		System.out.println(getModel() + " is loaded");
 	}
 
 
